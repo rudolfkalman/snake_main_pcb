@@ -1,0 +1,15 @@
+.history/
+*.step
+g431_md-backups/
+production/
+*.lck
+*.autosave
+*.gbr
+*.grl
+*.zip
+*.net
+*-cache.lib
+*-bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
