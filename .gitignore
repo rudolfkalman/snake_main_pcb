@@ -1,6 +1,8 @@
 .history/
 *.step
-g431_md-backups/
+!3dmodels/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.step
+!3dmodels/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.step
+*-backups/
 production/
 *.lck
 *.autosave
@@ -13,3 +15,6 @@ production/
 *.kicad_prl
 *.kicad_sch-bak
 *.kicad_pcb-bak
+_autosave-*
+*.bak
+fp-info-cache

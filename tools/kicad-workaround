@@ -1,0 +1,9 @@
+#!/bin/sh
+# Skip the known KiCad PROPERTY_ENUM startup assertion dialog.
+guard="$HOME/.local/lib/kicad-startup-workaround/assert-dialog-guard.so"
+if [ ! -r "$guard" ]; then
+    printf '%s\n' "KiCad startup workaround library not found: $guard" >&2
+    exit 1
+fi
+export LD_PRELOAD="$guard${LD_PRELOAD:+:$LD_PRELOAD}"
+exec /usr/bin/kicad "$@"

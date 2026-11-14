@@ -1,0 +1,11 @@
+(fp_lib_table
+ (lib (name "TB6643KQ")(type "KiCad")(uri "${KIPRJMOD}/TB6643KQ.pretty")(options "")(descr "TB6643KQ local PCB heatsink footprint"))
+  (lib (name "BNO085") (type "KiCad") (uri "${KIPRJMOD}/BNO085.pretty") (options "") (descr "BNO085 module header mounting"))
+  (lib (name "AS5600") (type "KiCad") (uri "${KIPRJMOD}/AS5600.pretty") (options "") (descr "AS5600_5Pin THT connector"))
+  (lib (name "STS3215") (type "KiCad") (uri "${KIPRJMOD}/STS3215.pretty") (options "") (descr "STS3215 THT connector"))
+  (lib (name "SN74LVC1G74") (type "KiCad") (uri "${KIPRJMOD}/SN74LVC1G74.pretty") (options "") (descr "TI SN74LVC1G74 DCU VSSOP-8 and DCT SSOP-8 footprints"))
+  (lib (name "CTM1051AMG") (type "KiCad") (uri "${KIPRJMOD}/CTM1051AMG.pretty") (options "") (descr "ZLG CTM1051AMG isolated CAN transceiver"))
+  (lib (name "MYMGK00506ERSR") (type "KiCad") (uri "${KIPRJMOD}/MYMGK00506ERSR.pretty") (options "") (descr "AE-MYMGK00506ERSR-5V0 module footprint, assumed 25.4mm row spacing"))
+  (lib (name "Project_Connector_AMASS") (type "KiCad") (uri "${KIPRJMOD}/Project_Connector_AMASS.pretty") (options "") (descr "Project-local XT30 footprints with bundled 3D models"))
+  (lib (name "Servo_WirePad") (type "KiCad") (uri "${KIPRJMOD}/Servo_WirePad.pretty") (options "") (descr "Three 3 x 6 mm direct solder wire pads for servos"))
+)

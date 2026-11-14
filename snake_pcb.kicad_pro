@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,28 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "shorting_items|94680000|83450000|d9c1ca92-a8dd-45b6-8e3b-a7334ad914a8|895b69ef-de0f-43b4-a93a-f30aa6789380",
-          ""
-        ],
-        [
-          "shorting_items|94680000|88250000|7515c4d6-b484-4122-8733-987acd91960d|a6b0d4d2-1da6-4ae0-bac7-96624964874b",
-          ""
-        ],
-        [
-          "solder_mask_bridge|94680000|83450000|d9c1ca92-a8dd-45b6-8e3b-a7334ad914a8|895b69ef-de0f-43b4-a93a-f30aa6789380",
-          ""
-        ],
-        [
-          "solder_mask_bridge|94680000|88250000|7515c4d6-b484-4122-8733-987acd91960d|a6b0d4d2-1da6-4ae0-bac7-96624964874b",
-          ""
-        ],
-        [
-          "unconnected_items|104350001|87100000|F.Cu|4|2cd303b8-a126-4e07-a968-f076a109a6bb|a682402c-66d3-486d-8525-e12160cc5260",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -144,7 +139,7 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "tuning_profile_track_geometries": "ignore",
-        "unconnected_items": "error",
+        "unconnected_items": "warning",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -183,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -205,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -217,7 +215,9 @@
       "track_widths": [
         0.0,
         0.5,
-        1.0
+        1.0,
+        1.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -530,6 +530,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -549,7 +550,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "g431_md.kicad_pro",
+    "filename": "snake_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -577,8 +578,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -590,8 +591,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
+      "step": "snake_pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -600,7 +602,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -849,12 +851,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "g431_md.kicad_sch",
+        "filename": "snake_pcb.kicad_sch",
         "name": "ルート",
         "uuid": "0ee349df-6add-4e50-89fd-464939bc0755"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-7,#PWR1-86,C1-24,D1-4,FB1,J1-14,JP1,M1,NT1,PWR1,Q1-2,R1-22,ST\\-LINK1,SW1,U1-10,Y1",
     "variants": []
   },
   "sheets": [

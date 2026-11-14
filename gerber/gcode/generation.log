@@ -1,0 +1,22 @@
+Importing preamble text... DONE
+Importing front side... DONE.
+Importing back side... not specified.
+Importing outline... DONE.
+Processing input files... 
+Rendering front...
+Rendering outline...
+Layer outline rendered.
+Layer front rendered.
+DONE.
+Importing drill... DONE.
+Exporting milldrill... Exporting drill... DONE. The board should be drilled from the FRONT side.
+Exporting front... 
+Exporting outline... 
+...outline DONE. (Height: 75.05mm Width: 82.05mm)
+The board should be cut from the FRONT side. 
+
+Warning: pcb2gcode hasn't been able to fulfill all clearance requirements.  Check the contentions output and consider using a smaller milling bit.
+
+Warning: pcb2gcode hasn't been able to fulfill all clearance requirements.  Check the contentions output and consider using a smaller milling bit.
+...front DONE. (Height: 75.05mm Width: 82.05mm)
+END.

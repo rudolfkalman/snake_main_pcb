@@ -1,0 +1,44 @@
+# PREVIEW ONLY: provisional machining parameters, not machine-qualified.
+# Run from the parent gerber directory:
+# pcb2gcode --config gcode/millproject
+front=snake_pcb-F_Cu.gbr
+outline=snake_pcb-Edge_Cuts.gbr
+drill=snake_pcb.drl
+output-dir=gcode
+preamble-text=gcode/preview-header.txt
+metric=true
+metricoutput=true
+zero-start=true
+zsafe=3
+zchange=10
+spinup-time=2
+spindown-time=2
+tolerance=0.005
+nog64=true
+nog81=true
+nog91-1=true
+
+# Surface isolation: effective cutting diameter 0.15 mm.
+mill-diameters=0.15
+zwork=-0.05
+mill-feed=100
+mill-vertfeed=30
+mill-speed=12000
+
+# Drill tools follow the Excellon file; tool changes retain M6 and M0.
+drill-side=front
+zdrill=-1.8
+drill-feed=60
+drill-speed=12000
+
+# Outline: 1.6 mm stock, provisional 1 mm end mill, retaining tabs.
+cut-side=front
+cutter-diameter=1
+zcut=-1.8
+cut-infeed=0.3
+cut-feed=100
+cut-vertfeed=30
+cut-speed=12000
+bridges=2
+bridgesnum=4
+zbridges=-1.2

@@ -1,0 +1,14 @@
+STM32G431CBT6,
+TPS3430, ◯
+D-FF SN74LVC1G74, ◯ 
+DC Motor * 1,
+PWM Servo * 2,
+Serial Bus Servo * 1 half duplex,
+BNO085 SPI,
+AS5600 I2C,
+CAN FD, ◯ 
+TF Luna uart,
+
+BATT watchdog 
+
+ADC_IN = BATT * R1/R1 + R2

@@ -1,0 +1,6 @@
+PREVIEW ONLY - machining parameters and controller are unconfirmed.
+Z zero is the top copper surface. Units: mm. Spindle: 12000 RPM.
+Isolation: effective tool diameter 0.15 mm, depth 0.05 mm.
+Outline: end mill diameter 1 mm, stock thickness 1.6 mm.
+Verify tools, feeds, spindle, work origin, clearances and controller support before machining.
+Only front copper is supplied from this four-layer design.

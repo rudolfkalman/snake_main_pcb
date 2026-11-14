@@ -1,4 +1,12 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "md_parts") (type "KiCad") (uri "${KIPRJMOD}/md_parts.kicad_sym") (options "") (descr ""))
+	(lib (name "TB6643KQ") (type "KiCad") (uri "${KIPRJMOD}/TB6643KQ.kicad_sym") (options "") (descr "TB6643KQ symbol"))
+  (lib (name "BNO085") (type "KiCad") (uri "${KIPRJMOD}/BNO085.kicad_sym") (options "") (descr "BNO085 10-pin breakout module"))
+  (lib (name "AS5600") (type "KiCad") (uri "${KIPRJMOD}/AS5600.kicad_sym") (options "") (descr "AS5600_5Pin interface symbol"))
+  (lib (name "STS3215") (type "KiCad") (uri "${KIPRJMOD}/STS3215.kicad_sym") (options "") (descr "STS3215 interface symbol"))
+  (lib (name "SN74LVC1G74") (type "KiCad") (uri "${KIPRJMOD}/SN74LVC1G74.kicad_sym") (options "") (descr "TI SN74LVC1G74 D flip-flop, DCU and DCT packages"))
+  (lib (name "CTM1051AMG") (type "KiCad") (uri "${KIPRJMOD}/CTM1051AMG.kicad_sym") (options "") (descr "ZLG CTM1051AMG isolated CAN transceiver"))
+  (lib (name "MYMGK00506ERSR") (type "KiCad") (uri "${KIPRJMOD}/MYMGK00506ERSR.kicad_sym") (options "") (descr "Akizuki AE-MYMGK00506ERSR-5V0 DC-DC module"))
+  (lib (name "Servo_WirePad") (type "KiCad") (uri "${KIPRJMOD}/Servo_WirePad.kicad_sym") (options "") (descr "DS51150 and MG996R direct wire solder symbols"))
 )
